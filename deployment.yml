@@ -10,7 +10,7 @@ spec:
         app: helloPython      
     spec:
       containers:
-        - name: friendlyhello
+        - name: py1
           image: "registry.ng.bluemix.net/containers1/py1" # edit here!
           imagePullPolicy: Always
           
