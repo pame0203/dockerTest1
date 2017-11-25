@@ -1,5 +1,5 @@
 apiVersion: extensions/v1beta1
-kind: Pod
+kind: Deployment
 metadata:
   name: python-deployment
 spec:
@@ -16,7 +16,7 @@ spec:
           
 ---
 apiVersion: v1
-kind: Service
+kind: Pod
 metadata:
   name: pyHello
 spec:
