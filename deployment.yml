@@ -11,7 +11,7 @@ spec:
         app: python-app
     spec:
       containers:
-      - name: hello-app
+      - name: python-app
         image: registry.ng.bluemix.net/contenedores1/python1:1
         # for local development against minikube registry
         #imagePullPolicy: Never        
